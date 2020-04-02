@@ -81,12 +81,10 @@ window.addEventListener("click", function() {
  }, 43000);
  var temp_11 = setTimeout(function() {
   document.getElementById("stop").classList.add("lyrics-display");
- }, 43500);
- var temp_12 = setTimeout(function() {
-  document.getElementById("stop").classList.add("lyrics-display");
   document.body.style.backgroundColor = "rgb(0, 0, 0)";
- }, 44500);
- var temp_13 = setTimeout(function() {
+ }, 43500);
+ 
+ var temp_12 = setTimeout(function() {
   location.reload();
  }, 46500);
 }, {once : true});
