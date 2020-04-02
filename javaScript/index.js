@@ -9,7 +9,7 @@ window.addEventListener('load', (event) => {
 });
 
 window.addEventListener("click", function() {
- this.removeEventListener("click", function())
+ window.removeEventListener("click", function())
  em.play();
  touch.remove();
  get.style.visibility = "visible";
