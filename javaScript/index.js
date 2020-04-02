@@ -84,6 +84,7 @@ window.addEventListener("click", function() {
  }, 43500);
  var temp_12 = setTimeout(function() {
   document.getElementById("stop").classList.add("lyrics-display");
+  document.body.style.backgroundColor = "rgb(0, 0, 0)";
  }, 44500);
  var temp_13 = setTimeout(function() {
   location.reload();
