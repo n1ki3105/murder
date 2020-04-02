@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
 body{
     background-color: rgb(40, 40, 40);
 }
@@ -9,6 +12,8 @@ body{
 .lyrics{
     font-size: 200px;
     text-align: center;
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 5px;
 }
 
 #touch{
@@ -16,6 +21,8 @@ body{
     position: absolute;
     top: 25%;
     left: 20%;
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 5px;
 }
 
 #get_set{
@@ -24,6 +31,8 @@ body{
     top: 20%;
     left: 25%;
     visibility: hidden;
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 5px;
 }
 
 #GO{
@@ -31,6 +40,8 @@ body{
     position: absolute;
     left: 20%;
     visibility: hidden;
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 5px;
 }
 
 #eminem{
