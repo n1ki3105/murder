@@ -4,7 +4,7 @@ var get = document.getElementById("get_set");
 var go = document.getElementById("GO");
 var temp_lyrics = 2;
 
-window.addEventListener('load', (event) => {
+window.addEventListener('load', function()  {
  alert("WARNING: This site may potentially trigger seizures for people with photosensitive epilepsy. Viewer discretion is advised.");
 });
 
@@ -23,18 +23,18 @@ window.addEventListener("click", function() {
   clearTimeout(temp_2);
   clearInterval(temp);
   document.body.style.backgroundColor = "rgb(215, 215, 215)";
-  get.remove()
+  get.remove();
  }, 11500);
  var temp_4 = setTimeout(function() {
   clearTimeout(temp_3);
   go.style.visibility = "visible";
  }, 11600);
- var temp_5 = setTimeout(function() {
+setTimeout(function() {
   clearTimeout(temp_4);
   document.body.style.backgroundColor = "rgb(40, 40, 40)";
   go.remove();
  }, 12700);
- var temp_6 = setTimeout(function() {
+setTimeout(function() {
   document.getElementById(temp_lyrics - 1).style.display = "block";
   var lyric_interval;
   lyric_interval = setInterval(function lyrics() {
@@ -47,7 +47,7 @@ window.addEventListener("click", function() {
    }
   }, 130);
  }, 12800);
- var temp_7 = setTimeout(function() {
+setTimeout(function() {
   var lyric_interval_2;
   lyric_interval_2 = setInterval(function lyrics_2() {
    document.getElementById(temp_lyrics - 1).style.display = "none";
@@ -59,7 +59,7 @@ window.addEventListener("click", function() {
    }
   }, 190);
  }, 36200);
- var temp_8 = setTimeout(function() {
+setTimeout(function() {
   document.getElementById(temp_lyrics - 1).style.display = "block";
   var lyric_interval_3;
   lyric_interval_3 = setInterval(function lyrics_3() {
@@ -72,19 +72,19 @@ window.addEventListener("click", function() {
    }
   }, 190);
  }, 40570);
- var temp_9 = setTimeout(function() {
+setTimeout(function() {
   document.getElementById("eminem").classList.remove("lyrics-display");
  }, 42800);
- var temp_10 = setTimeout(function() {
+setTimeout(function() {
   document.getElementById("eminem").classList.add("lyrics-display");
   document.getElementById("stop").classList.remove("lyrics-display");
  }, 43000);
- var temp_11 = setTimeout(function() {
+setTimeout(function() {
   document.getElementById("stop").classList.add("lyrics-display");
   document.body.style.backgroundColor = "rgb(0, 0, 0)";
  }, 43500);
  
- var temp_12 = setTimeout(function() {
+setTimeout(function() {
   location.reload();
  }, 46500);
 }, {once : true});
