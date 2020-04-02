@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(40, 40, 40);
+}
+
+.lyrics-display{
+    display: none;
+}
+
+.lyrics{
+    font-size: 200px;
+    text-align: center;
+}
+
+#touch{
+    font-size: 150px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+#get_set{
+    font-size: 170px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    visibility: hidden;
+}
+
+#GO{
+    font-size: 300px;
+    position: absolute;
+    left: 20%;
+    visibility: hidden;
+}
+
+#eminem{
+    position: absolute;
+    top: -22%;
+    left: 28%;
+    width: 41%;
+}
+
+#stop{
+    position: absolute;
+    top: 5%;
+    left: 27%;
+    width: 45%;
+}
