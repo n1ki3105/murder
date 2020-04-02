@@ -88,7 +88,7 @@ window.addEventListener("click", function() {
  var temp_13 = setTimeout(function() {
   location.reload();
  }, 46500);
-});
+}, {once : true});
 
 setInterval(function randomTextColor() {
  var randomColor = Math.floor(Math.random() * 16777215).toString(16);
